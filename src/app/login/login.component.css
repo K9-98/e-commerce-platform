@@ -1,0 +1,58 @@
+.login-content {
+    margin: 60px auto;
+    height: 365px;
+    width: 431px;
+}
+
+.login-header {
+    height: 30px;
+    color: #444444;
+    font-family: Raleway;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.login-footer {
+    color: #444444;
+    font-family: Raleway;
+    font-size: 20px;
+    margin-top: 41px;
+}
+
+.login-label {
+    color: #444444;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.login-btn {
+    height: 37px;
+    width: 91px;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-field {
+    height: 37px;
+    width: 431px;
+    border: 2px solid #DDDDDD;
+    background-color: #FFFFFF;
+}
+
+.forgot-pwd {
+    color: #444444;
+    font-family: Lato;
+    font-size: 14px;
+    text-align: right;
+}
+
+.divider {
+    margin-top: 40px;
+    height: 1px;
+    width: 430px;
+    background-color: #EEEEEE;
+}

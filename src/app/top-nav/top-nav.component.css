@@ -1,0 +1,31 @@
+.top-nav-bg {
+    height: 100px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.nav-title {
+    padding-left: 30px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.divider {
+    height: 100px;
+    width: 1px;
+    background-color: rgba(58, 58, 58, 0.51);
+}
+
+.nav-link {
+    padding-top: 20px;
+    color: #444444;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav-item .active {
+    color: #1ABC9C !important;
+}
