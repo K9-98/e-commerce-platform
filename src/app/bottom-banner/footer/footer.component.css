@@ -8,3 +8,23 @@
     width: 100%;
     background-color: #000000;
 }
+
+.footer-text {
+    padding-top: 45px;
+    color: rgba(255, 255, 255, 0.49);
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.social-media li {
+    display: inline;
+    letter-spacing: 20px;
+}
+
+.right {
+    padding-right: 240px
+}
+
+.left {
+    padding-left: 230px
+}
