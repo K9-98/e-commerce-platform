@@ -1,0 +1,37 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 text-center h3 m-5">PRODUCTS</div>
+        <div *ngFor="let product of products" class="col-md-4 col-sm-6">
+            <div class="card border-dark mb-3">
+                <h4 class="card-header">
+                    {{product.name}}
+                    <span class="float-sm-right float-md-right badge badge-pill badge-dark">
+                        {{product.price|currency:'ZAR':true:"2.2-2"}}
+                      </span>
+                </h4>
+                <div class="card-text p-2">
+                    {{product.description}}
+                    <button class="btn btn-primary btn-sm float-sm-right mr-sm-3  mr-md-3" (click)="addProductToCart(product)">
+                        Add to Cart
+                      </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-inline float-sm-left">
+                <select class="form-control">
+                        <option value="4">4 per Page</option>
+                        <option value="8">8 per Page</option>
+                        <option value="12">10 per Page</option>
+                        <option value="24">24 per Page</option>
+                        <option value="100">100 per Page</option>
+                      </select>
+            </div>
+            <div class="btn-group float-sm-right">
+                <button class="btn btn-outline-dark">1</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>

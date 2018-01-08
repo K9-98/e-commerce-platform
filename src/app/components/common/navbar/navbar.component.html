@@ -1,0 +1,36 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand nav-title" routerLink="/home">Placeholder Heading</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto ">
+
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/store">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="cart">
+                    <app-cart-summary></app-cart-summary>
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" routerLink="/login"><i class="fa fa-user" aria-hidden="true"></i>  Login</a>
+                    <a class="dropdown-item" routerLink="/sign-up"><i class="fa fa-pencil" aria-hidden="true"></i> Sign Up</a>
+                </div>
+            </li>
+
+
+        </ul>
+
+    </div>
+</nav>

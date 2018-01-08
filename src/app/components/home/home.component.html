@@ -1,0 +1,42 @@
+<div class="container-fluid no-margin no-padding">
+    <div class="row">
+
+        <div class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width:100%;height:500px;">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" style="width:100%;height:500px;">
+                    <div *ngFor="let new of newStuff" class="carousel-item" [class.active]="new === newStuff[0]" (click)="select()">
+                        <img class="d-block w-100" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAANlBMVEXMzMzPz8+RkZHLy8uTk5OWlpbDw8PIyMidnZ3GxsbBwcG1tbWYmJi6urqioqKwsLCoqKixsbFgFY5SAAADNUlEQVR4nO3XyZbjKgyAYTNjzJT3f9kWOHFcU/reRaW9+L9Fyqkj5yALBF4WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL9KiZeXL+5TX4P/et/blW5dTWZcri3b7ud/TYu6phe3qdSzjZv5HFyizcX87pD/n5J1jNaVcR11jjrO4TXt5NuLFNdsc3S6fQouzkbntt8f93+mst3WtegaFlV092u3m8yylGsKm60/TjjVpdpryiOvU3CoNq3JxvWdObzmZxVUc34JMQaZcVU+TddejdocI70vriPjNY5aqyLP4xQsD0mez/55Fftg1CaDTLmPy5aLCtWNy+Ju95GGdpPsF397zL89eFnl9lOwVHYs4zX/XPy3C2mMXPXsVcnzyScpyxr38e9/hjiLU4/iBD/KO2t4ClZjAsg86O46GQ4+NduNjHb2ilEWn9sYYnhmmJw1Y6Geu+SatlzX5RSsct8ztJfKUGlro5eZOmfYYnRTfrabxcT6CDLNNlNlAp/uq3JjUsspWLl+78TvTeEvRob5ZmQthv1rk/4zdw+ZdEfNUo7d9Q/3RblRapaewWrfPdRt/6nLUGZzsg6fNVy+1nCU2LqP41aqRLepb2t4qT1/GZ1GJ0lhrsMw1uHeREM890Rn++fVJSuznYNlHY7UZEpfZx2WMutSdJF2P2fb971UTmmyWp/j9tvcKoMU/EMvrePnwoV6qepuP2yd9kM39sM8hlhcO0YaYo72dty37ftGmPvhESw/N/fDGK+T4TYX0eNMM6ZYlb4qx5RRi6afB9PN9ZKjf3y9P477meYRLImXcaax7TIZyu4XvZJmMWZXk+HKXB0NUz7lvzkfcSHKoaw/iyglLWqUL30I9jnK+S66V28lbybnLBfHC8946FnnqveG2eflsf2ppqVmwR5vG1InG6vdi3UKlo5bnW3/IJMfhRZlrLPHLEkGV/esQpe3qu3o+avOfub5bK5blBelPZVTcJBXzNyutRua1fvHK0TwPhyX6fQKFJI3889p+q0SYb4EG+/91TZDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfOsP4lsa8TKp1xgAAAAASUVORK5CYII="
+                            alt="First slide">
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" style="padding-top:10%;" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" style="padding-top:10%;" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row m-5">
+        <div class="col-md-12 text-center mb-4 h3">FEATURED</div>
+        <div *ngFor="let new of newStuff" class="col-md-3 col-sm-6">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

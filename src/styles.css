@@ -1,6 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import "~bootstrap/dist/css/bootstrap.min.css";
-@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway");
-@import "~styles/helpers.css";
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway");
+.no-margin {
+    margin: 0px !important;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.pad-top-15 {
+    padding-top: 15px;
+}
+
+.pad-top-50 {
+    padding-top: 50px;
+}
+
+.pad-left-50 {
+    padding-left: 50px;
+}

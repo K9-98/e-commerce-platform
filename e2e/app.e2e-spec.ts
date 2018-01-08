@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('e-commerce-platform App', () => {
+describe('e-com App', () => {
   let page: AppPage;
 
   beforeEach(() => {
